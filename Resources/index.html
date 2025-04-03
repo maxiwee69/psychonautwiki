@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PsychonautWiki Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>PsychonautWiki Explorer</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="search-section">
+            <h2>Substance Information</h2>
+            <div class="search-container">
+                <input type="text" id="substance-search" placeholder="Enter substance name (e.g., Armodafinil, LSD, Caffeine)">
+                <button id="search-button">Search</button>
+            </div>
+            <div class="error-message" id="error-message"></div>
+        </div>
+
+        <div class="loading" id="loading"></div>
+
+        <div class="results" id="results">
+            <!-- Results will be populated here -->
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Data provided by PsychonautWiki API. This tool is for educational and harm reduction purposes only.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
